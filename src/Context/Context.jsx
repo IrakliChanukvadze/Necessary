@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 const Context = React.createContext();
 
 const ContextProvider = (props) => {
-  const [logged, setLogged] = useState(true);
+  const [logged, setLogged] = useState(false);
   const [allUsers, setAllUsers] = useState([
     { email: "1@gmail.com", password: "1" },
   ]);
